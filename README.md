@@ -2,7 +2,7 @@
 A simple repository of files needed to add a 3D footprint of the Raspberry Pi Pico board to KiCad.
 
 ## Schematic and footprint
-I've started from the schematics and footprint files available on the [HeadBoffin RP_Silicon_KiCad GitHub project](https://github.com/HeadBoffin/RP_Silicon_KiCad). Because there are some errors in the readme file on how and where we can get those files from the Raspberry Pi web site, I've copied the needed files here, on the `RP-Pico Libraries` folder. Following the install instructions (see below) is possible to add the Raspberry Pi Pico board schema and footprint to a KiCad project:
+I've started from the schematics and footprint files available on the [HeadBoffin RP_Silicon_KiCad GitHub project](https://github.com/HeadBoffin/RP_Silicon_KiCad). Because there are some errors in the readme file on how and where we can get those files from the Raspberry Pi web site, I've copied the needed files here, on the `RP-Pico Libraries` folder. Following the [install instructions](Install instructions.md) is possible to add the Raspberry Pi Pico board schema and footprint to a KiCad project:
 
 ![schema and footprint screenshot](Images\Image001.png)
 
