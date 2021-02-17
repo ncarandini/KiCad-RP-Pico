@@ -39,5 +39,6 @@ To install and enable/disable it follow the [install instructions](Install%20ins
 
 I've created a test project where you can find a simple usage example. The first image of this readme shows the result.
 
-
+## License
+Please read the [License](LICENSE) where is stated that this work is free to use.
 A tweet with an image of your Raspberry Pi Pico project with a link this project and me (@tpcware) would be greatly appreciated.
