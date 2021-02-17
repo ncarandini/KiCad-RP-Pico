@@ -1,0 +1,213 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U1
+U 1 1 6029BF78
+P 4000 3050
+F 0 "U1" H 4000 4265 50  0000 C CNN
+F 1 "Pico" H 4000 4174 50  0000 C CNN
+F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" V 4000 3050 50  0001 C CNN
+F 3 "" H 4000 3050 50  0001 C CNN
+	1    4000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x20 J1
+U 1 1 602BA731
+P 2150 3000
+F 0 "J1" H 2068 4117 50  0000 C CNN
+F 1 "Conn_01x20" H 2068 4026 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x20_P1.00mm_Vertical" H 2150 3000 50  0001 C CNN
+F 3 "~" H 2150 3000 50  0001 C CNN
+	1    2150 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x20 J2
+U 1 1 602BCD5D
+P 5700 3000
+F 0 "J2" H 5780 2992 50  0000 L CNN
+F 1 "Conn_01x20" H 5780 2901 50  0000 L CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x20_P1.00mm_Vertical" H 5700 3000 50  0001 C CNN
+F 3 "~" H 5700 3000 50  0001 C CNN
+	1    5700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 602C32A2
+P 4000 4600
+F 0 "J3" V 3872 4780 50  0000 L CNN
+F 1 "Conn_01x03" V 3963 4780 50  0000 L CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x03_P1.00mm_Vertical" H 4000 4600 50  0001 C CNN
+F 3 "~" H 4000 4600 50  0001 C CNN
+	1    4000 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 4000 3300 4000
+Wire Wire Line
+	3300 3900 2350 3900
+Wire Wire Line
+	2350 3800 2750 3800
+Wire Wire Line
+	2350 3700 3300 3700
+Wire Wire Line
+	2350 3600 3300 3600
+Wire Wire Line
+	3300 3500 2350 3500
+Wire Wire Line
+	2350 3400 3300 3400
+Wire Wire Line
+	3300 3300 2750 3300
+Wire Wire Line
+	2350 3200 3300 3200
+Wire Wire Line
+	2350 3100 3300 3100
+Wire Wire Line
+	2350 3000 3300 3000
+Wire Wire Line
+	2350 2900 3300 2900
+Wire Wire Line
+	2350 2800 2750 2800
+Wire Wire Line
+	2350 2700 3300 2700
+Wire Wire Line
+	2350 2600 3300 2600
+Wire Wire Line
+	2350 2500 3300 2500
+Wire Wire Line
+	2350 2400 3300 2400
+Wire Wire Line
+	2350 2300 2750 2300
+Wire Wire Line
+	2350 2200 3300 2200
+Wire Wire Line
+	2350 2100 3300 2100
+Wire Wire Line
+	4700 2100 5500 2100
+Wire Wire Line
+	5500 2200 4700 2200
+Wire Wire Line
+	4700 2300 5150 2300
+Wire Wire Line
+	5500 2400 4700 2400
+Wire Wire Line
+	4700 2500 5500 2500
+Wire Wire Line
+	5500 2600 4700 2600
+Wire Wire Line
+	4700 2700 5500 2700
+Wire Wire Line
+	4700 2900 5500 2900
+Wire Wire Line
+	5500 3000 4700 3000
+Wire Wire Line
+	4700 3100 5500 3100
+Wire Wire Line
+	5500 3200 4700 3200
+Wire Wire Line
+	4700 3300 5150 3300
+Wire Wire Line
+	5500 3400 4700 3400
+Wire Wire Line
+	4700 3500 5500 3500
+Wire Wire Line
+	5500 3600 4700 3600
+Wire Wire Line
+	4700 3700 5500 3700
+Wire Wire Line
+	5500 3800 5150 3800
+Wire Wire Line
+	4700 3900 5500 3900
+Wire Wire Line
+	5500 4000 4700 4000
+Wire Wire Line
+	4100 4400 4100 4200
+Wire Wire Line
+	4000 4400 4000 4300
+Wire Wire Line
+	3900 4400 3900 4200
+$Comp
+L power:GND #PWR0101
+U 1 1 602D7FE3
+P 2750 4450
+F 0 "#PWR0101" H 2750 4200 50  0001 C CNN
+F 1 "GND" H 2755 4277 50  0000 C CNN
+F 2 "" H 2750 4450 50  0001 C CNN
+F 3 "" H 2750 4450 50  0001 C CNN
+	1    2750 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4450 2750 4300
+Connection ~ 4000 4300
+Wire Wire Line
+	4000 4300 4000 4200
+Wire Wire Line
+	2750 4300 4000 4300
+Connection ~ 2750 4300
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 602E1541
+P 2750 4300
+F 0 "#FLG0101" H 2750 4375 50  0001 C CNN
+F 1 "PWR_FLAG" V 2750 4428 50  0000 L CNN
+F 2 "" H 2750 4300 50  0001 C CNN
+F 3 "~" H 2750 4300 50  0001 C CNN
+	1    2750 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4300 2750 3800
+Connection ~ 2750 3800
+Wire Wire Line
+	2750 3800 3300 3800
+Wire Wire Line
+	2750 3800 2750 3300
+Connection ~ 2750 3300
+Wire Wire Line
+	2750 3300 2350 3300
+Wire Wire Line
+	2750 3300 2750 2800
+Connection ~ 2750 2800
+Wire Wire Line
+	2750 2800 3300 2800
+Wire Wire Line
+	2750 2800 2750 2300
+Connection ~ 2750 2300
+Wire Wire Line
+	2750 2300 3300 2300
+Wire Wire Line
+	4000 4300 5150 4300
+Wire Wire Line
+	5150 4300 5150 3800
+Connection ~ 5150 3800
+Wire Wire Line
+	5150 3800 4700 3800
+Wire Wire Line
+	5150 3800 5150 3300
+Connection ~ 5150 3300
+Wire Wire Line
+	5150 3300 5500 3300
+Wire Wire Line
+	5150 3300 5150 2300
+Connection ~ 5150 2300
+Wire Wire Line
+	5150 2300 5500 2300
+Wire Wire Line
+	5500 2800 4700 2800
+$EndSCHEMATC
