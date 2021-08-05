@@ -68,11 +68,11 @@ Navigate to the `RP-Pico Libraries` folder, select the `Pico.wrl` file and wait 
 
 ![symbol library manager](Images/Image18.png)
 
-Due to different origin setup and unit of measure, I found that the imported model doesn't fit with the footprint:
+Due to undefined unit of measure (mm vs inch) in VRML format, you can found that the imported model doesn't fit with the footprint. As an example:
 
 ![symbol library manager](Images/Image19.png)
 
-but we can easily fix it changing the scale and the offset:
+but you can easily fix it changing the scale and the offset:
 
 ![symbol library manager](Images/Image20.png)
 
