@@ -68,7 +68,7 @@ Navigate to the `RP-Pico Libraries` folder, select the `Pico.wrl` file and wait 
 
 ![symbol library manager](Images/Image18.png)
 
-The model is already scaled and traslayed to match the footprint:
+The model is already scaled and traslated to match the footprint:
 
 ![symbol library manager](Images/Image19.png)
 
