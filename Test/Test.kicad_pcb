@@ -546,9 +546,9 @@
       (net 36 "Net-(J3-Pad1)") (tstamp 386faf3f-2adf-472a-84bf-bd511edf2429))
     (pad "43" smd rect locked (at 2.54 23.9 90) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask")
       (net 36 "Net-(J3-Pad1)") (tstamp de552ae9-cde6-4643-8cc7-9de2579dadae))
-    (model "D:/OneDrive/Disegni 3D/Raspberry Pi Pico/Pico.wrl"
-      (offset (xyz -10.5 -25.5 0))
-      (scale (xyz 10 10 10))
+    (model "C:/Users/ncara/OneDrive/IoT/Tools/KiCad/RP-Pico Libraries/Pico.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -627,7 +627,12 @@
       (net 2 "Net-(J1-Pad19)") (tstamp 54ed3ee1-891b-418e-ab9c-6a18747d7388))
     (pad "20" thru_hole oval locked (at 0 48.26) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "Net-(J1-Pad20)") (tstamp 749d9ed0-2ff2-4b55-abc5-f7231ec3aa28))
-    (model "${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -713,6 +718,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x20_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (layer "F.Cu")
@@ -756,6 +766,11 @@
     (pad "3" thru_hole oval locked (at 0 5.08 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 35 "Net-(J3-Pad3)") (tstamp 88606262-3ac5-44a1-aacc-18b26cf4d396))
     (model "${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
