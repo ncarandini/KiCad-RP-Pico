@@ -14,7 +14,7 @@ then select the global tab and click on the folder button:
 
 ![symbol library manager](Images/Image08.png)
 
-navigate to the `RP-Pico Libraries` folder, select the `MCU_RaspberryPi_and_Boards.lib` file and open it:
+navigate to the `RP-Pico Libraries` folder, select the `MCU_RaspberryPi_and_Boards.kicad_sym` file and open it:
 
 ![symbol library manager](Images/Image09.png)
 
@@ -36,11 +36,11 @@ wait for the footprints to load... then use the `File | Add Library` command:
 
 ![symbol library manager](Images/Image12.png)
 
-select the `MCU_RaspberriPi_and_Boards.pretty` folder (yes, the folder represent a footprint library on KiCad):
+confirm the `Global` choice:
 
 ![symbol library manager](Images/Image13.png)
 
-and confirm the `Global` choice:
+and select the `MCU_RaspberriPi_and_Boards.pretty` folder (yes, the folder represent a footprint library on KiCad):
 
 ![symbol library manager](Images/Image14.png)
 
