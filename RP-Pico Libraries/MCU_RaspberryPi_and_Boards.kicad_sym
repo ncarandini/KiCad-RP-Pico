@@ -136,7 +136,7 @@
         (name "GPIO28_ADC2" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 17.78 11.43 180) (length 2.54)
+      (pin input line (at 17.78 11.43 180) (length 2.54)
         (name "ADC_VREF" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
