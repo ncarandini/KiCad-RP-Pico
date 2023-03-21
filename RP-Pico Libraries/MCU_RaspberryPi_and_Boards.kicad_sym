@@ -148,7 +148,7 @@
         (name "3V3_EN" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
-      (pin bidirectional line (at 17.78 19.05 180) (length 2.54)
+      (pin power_in line (at 17.78 19.05 180) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
